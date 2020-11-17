@@ -7,3 +7,4 @@
 """
 from .PCNNConfig import PCNNConfig
 from .CNNConfig import CNNConfig
+from .PCNNEntityConfig import PCNNEntityConfig

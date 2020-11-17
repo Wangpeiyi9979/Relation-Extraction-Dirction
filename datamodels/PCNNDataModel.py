@@ -17,8 +17,11 @@ class PCNNDataModel(Dataset):
         self.pos2 = np.load(os.path.join(opt.data_dir, "{}_{}.npy".format(case, 'pos1')), allow_pickle=True)
         self.h = np.load(os.path.join(opt.data_dir, "{}_{}.npy".format(case, 'h')), allow_pickle=True)
         self.t = np.load(os.path.join(opt.data_dir, "{}_{}.npy".format(case, 't')), allow_pickle=True)
+        self.h_span = np.load(os.path.join(opt.data_dir, "{}_{}.npy".format(case, 'h_span')), allow_pickle=True)
+        self.t_span = np.load(os.path.join(opt.data_dir, "{}_{}.npy".format(case, 't_span')), allow_pickle=True)
     def __getitem__(self, idx):
-        return self.token[idx], self.pos1[idx], self.pos2[idx], self.length[idx], self.label[idx], self.label_id[idx], self.h[idx], self.t[idx]
+        return self.token[idx], self.pos1[idx], self.pos2[idx], self.length[idx], self.label[idx], \
+               self.label_id[idx], self.h[idx], self.t[idx], self.h_span[idx], self.t_span[idx]
     def __len__(self):
         return len(self.token)
         # return 200
@@ -31,9 +34,11 @@ def collate_fn(datas):
         'num:label_id': [],
         'num:length': [],
         'str:h':[],
-        'str:t':[]
+        'str:t':[],
+        'var:h_span':[],
+        'var:t_span':[]
     }
-    token, pos1, pos2, length, label, label_id, h, t = zip(*datas)
+    token, pos1, pos2, length, label, label_id, h, t, h_span, t_span = zip(*datas)
     batch_data['str:token'].extend(token)
     batch_data['num:pos1'].extend(pos1)
     batch_data['num:pos2'].extend(pos2)
@@ -42,6 +47,8 @@ def collate_fn(datas):
     batch_data['num:label_id'].extend(label_id)
     batch_data['str:h'].extend(h)
     batch_data['str:t'].extend(t)
+    batch_data['var:h_span'].extend(h_span)
+    batch_data['var:t_span'].extend(t_span)
     for key in batch_data:
         if 'num' in key:
             batch_data[key] = torch.tensor(batch_data[key]).long()
@@ -68,7 +75,9 @@ class DataProcessor(object):
             'num:label_id': [],
             'num:length': [],
             'str:h':[],
-            'str:t':[]
+            'str:t':[],
+            'var:h_span': [],
+            'var:t_span': []
         }
         for data in tqdm(json_datas):
             return_data = self._create_single_example(data)
@@ -84,6 +93,8 @@ class DataProcessor(object):
         token_pos2 = np.zeros(self.sen_max_length, dtype=np.int32)
         pos1 = data['h'][2][0][0]
         pos2 = data['t'][2][0][0]
+        h_span = data['h'][2][0]
+        t_span = data['t'][2][0]
         for idx, token in enumerate(data['tokens']):
             token = token.lower()
             sen_token_list.append(token)
@@ -99,6 +110,8 @@ class DataProcessor(object):
         return_data['num:label_id'] = self.label2id[data['label']]
         return_data['str:h'] = data['h'][0]
         return_data['str:t'] = data['t'][0]
+        return_data['var:h_span'] = (h_span[0], h_span[-1]+1)
+        return_data['var:t_span'] = (t_span[0], t_span[-1]+1)
         return return_data
 
 if __name__ == '__main__':
