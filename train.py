@@ -14,7 +14,6 @@ from datamodels.PCNNDataModel import collate_fn
 import datamodels
 import models
 import utils
-import metric
 import configs
 def setup_seed(seed):
     torch.manual_seed(seed)

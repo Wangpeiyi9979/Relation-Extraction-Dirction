@@ -19,7 +19,6 @@ from texttable import Texttable
 from sklearn.metrics import confusion_matrix
 
 import datamodels
-import metric
 import models
 import utils
 from datamodels.PCNNDataModel import collate_fn
