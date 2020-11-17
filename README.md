@@ -51,9 +51,10 @@ python datamodels/PCNNDataModel.py
 ```
 
 # 实验结果
+具体的badcase和混淆矩阵可以参考`badcas目录下的txt文件
 ## Data1.0
 - CNN(不加入pos1, pos2的embedding, 经过max pooling): 38.21(ACC)
 - PCNN(加入pos1, pos2的embedding, max pooling): 68.21
 - PCNNEntity(在PCNN基础上，最后特征拼接了头实体表示平均和尾实体表示平均) 69.26
-具体的badcase和混淆矩阵可以参考`badcas目录下的txt文件
+
 
