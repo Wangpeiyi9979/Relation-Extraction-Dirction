@@ -54,7 +54,10 @@ python datamodels/PCNNDataModel.py
 具体的badcase和混淆矩阵可以参考`badcas目录下的txt文件
 ## Data1.0
 - CNN(不加入pos1, pos2的embedding, 经过max pooling): 38.21(ACC)
-- PCNN(加入pos1, pos2的embedding, max pooling): 68.21
-- PCNNEntity(在PCNN基础上，最后特征拼接了头实体表示平均和尾实体表示平均) 69.26
+- PCNN(加入pos1, pos2的embedding, max pooling): 69.524
+- PCNNEntity(在PCNN基础上，最后特征拼接了头实体表示平均和尾实体表示平均) 71.786    
+- PLSTM(把PCNN的encoder换成BiLSTM，最后也是max pooling) 71.198
+
+实验的一些小记录，CNN和LSTM参数都用`nn.init.xavier_normal`初始化对效果的影响很大，`bias`一般初始化为0，大体来说，BiLSTM是要好于CNN的。
 
 
