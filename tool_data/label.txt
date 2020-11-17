@@ -1,0 +1,12 @@
+has part
+r-has part
+father
+r-father
+owned by
+r-owned by
+follows
+r-follows
+mother
+r-mother
+creator
+r-creator
