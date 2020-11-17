@@ -26,7 +26,7 @@ def run(**keward):
     opt.parse(keward)
     if opt.use_gpu:
         torch.cuda.set_device(opt.gpu_id)
-    setup_seed(opt.seed)
+    # setup_seed(opt.seed)
 
     DataModel = getattr(datamodels, opt.data_model)
     train_data = DataModel(opt, case='train')
