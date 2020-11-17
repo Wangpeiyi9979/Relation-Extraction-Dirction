@@ -1,0 +1,1318 @@
+white rice vinegar is a colourless to pale yellow liquid , higher in acetic acid than other chinese vinegars , but still less acidic and milder in flavour than western vinegars .
+[h]: vinegar; [t]: acetic acid
+[Pred]: r-has part
+[Gold]: has part
+
+it is the second book in " the heroes of olympus " series , preceded by " the lost hero " and followed by " the mark of athena " .
+[h]: the heroes of olympus; [t]: the lost hero
+[Pred]: r-follows
+[Gold]: has part
+
+in october 2016 , facebook deployed an optional mode called secret conversations in facebook messenger which provides end - to - end encryption using an implementation of the signal protocol .
+[h]: facebook messenger; [t]: signal protocol
+[Pred]: r-owned by
+[Gold]: has part
+
+luis germán astete - ( b. lima , 1832 - d. huamachuco , 1883 ) peruvian military and politician , captain of the peruvian navy .
+[h]: peruvian military; [t]: peruvian navy
+[Pred]: r-father
+[Gold]: has part
+
+as the easternmost isle of the lesser antilles in the west indies , barbados lies 100 kilometres ( 62   mi ) east of the windward islands and caribbean sea .
+[h]: west indies; [t]: lesser antilles
+[Pred]: r-has part
+[Gold]: has part
+
+he and albert southworth established the photography studio of southworth & hawes , which produced numerous portraits of exceptional quality in the 1840s–1860s .
+[h]: southworth & hawes; [t]: albert southworth
+[Pred]: creator
+[Gold]: has part
+
+this is the achaea referenced in the new testament ( e.g. , acts 18:12 and 19:21 ; romans 15:26 and 16:5 ) .
+[h]: new testament; [t]: acts
+[Pred]: r-follows
+[Gold]: has part
+
+" tro " is a ballad in swedish , written and sung by swedish pop singer marie fredriksson in the swedish pop duo roxette .
+[h]: roxette; [t]: marie fredriksson
+[Pred]: mother
+[Gold]: has part
+
+the basic concept of nidhi is " principle of mutuality " these companies are more popular in south india , and 80 % of nidhi companies are located in tamil nadu .
+[h]: south india; [t]: tamil nadu
+[Pred]: r-has part
+[Gold]: has part
+
+a technical issue in lebesgue integration is that the domain of integration is defined as a " set " ( a subset of a measure space ) , with no notion of orientation .
+[h]: measure space; [t]: set
+[Pred]: r-follows
+[Gold]: has part
+
+mark webber , also of red bull , finished second followed by the two brawn gp 's of jenson button and rubens barrichello .
+[h]: brawn gp; [t]: jenson button
+[Pred]: r-father
+[Gold]: has part
+
+craney island is a point of land in the independent city of portsmouth in the south hampton roads region of eastern virginia in the united states .
+[h]: hampton roads; [t]: portsmouth
+[Pred]: r-has part
+[Gold]: has part
+
+lady antebellum was formed in 2006 , in nashville , tennessee , by charles kelley , dave haywood , and hillary scott .
+[h]: lady antebellum; [t]: hillary scott
+[Pred]: r-mother
+[Gold]: has part
+
+2 corinthians 6 is the sixth chapter of the second epistle to the corinthians in the new testament of the christian bible .
+[h]: bible; [t]: new testament
+[Pred]: r-has part
+[Gold]: has part
+
+the vault - tec assisted targeting system , referred to as v.a.t.s. , is a new element for the " fallout " series and plays an important part in combat within " fallout 3 " .
+[h]: "fallout" series; [t]: fallout 3
+[Pred]: r-follows
+[Gold]: has part
+
+the neh1 domain is a cnc - bzip domain that allows nrf2 to heterodimerize with small maf proteins ( maff , mafg , mafk ) .
+[h]: maff; [t]: bzip
+[Pred]: r-has part
+[Gold]: has part
+
+imitating the marx brothers ( with graeme as " groucho " , tim as " harpo " , and bill as " chico " ) and singing " who wants to be a millionaire ?
+[h]: marx brothers; [t]: groucho
+[Pred]: r-owned by
+[Gold]: has part
+
+euthlastus is an extinct genus of late jurassic ( kimmeridgian - tithonian ) mammal from the morrison formation .
+[h]: tithonian; [t]: late jurassic
+[Pred]: r-follows
+[Gold]: r-has part
+
+at state level , the parliament of victoria consists of the legislative assembly ( the lower house ) and the legislative council ( the upper house ) .
+[h]: legislative council; [t]: parliament of victoria
+[Pred]: has part
+[Gold]: r-has part
+
+in the early 1990s , hong kong 's most popular male stars were collectively referred to as " four heavenly kings " ( andy lau , jacky cheung , aaron kwok and leon lai ) .
+[h]: andy lau; [t]: four heavenly kings
+[Pred]: r-creator
+[Gold]: r-has part
+
+after their marriage , reilly and villegas participated in " the amazing race " once more as part of its second all - stars edition .
+[h]: second all-stars edition; [t]: the amazing race
+[Pred]: follows
+[Gold]: r-has part
+
+he 's the father of vincent cassel , mathias cassel ( also known as rockin ' squat , leader of the french rap crew assassin ) and cécile cassel .
+[h]: rockin' squat; [t]: assassin
+[Pred]: r-follows
+[Gold]: r-has part
+
+he represented south africa in the football competition at the 2016 summer olympics .
+[h]: football competition; [t]: 2016 summer olympics
+[Pred]: r-follows
+[Gold]: r-has part
+
+he rebuilt finborough hall in 1795 to a design by francis sandys of bury st edmonds ( who also worked at ickworth house ) as the house which survives today used by finborough school .
+[h]: finborough school; [t]: finborough hall
+[Pred]: r-owned by
+[Gold]: r-has part
+
+" modern espionage " is the eleventh episode of the sixth season of the television sitcom " community " .
+[h]: modern espionage; [t]: sixth season
+[Pred]: has part
+[Gold]: r-has part
+
+a common type of broth is consommé , which are crystal clear broths or stock that have a full flavor , aroma , and body .
+[h]: stock; [t]: consommé
+[Pred]: follows
+[Gold]: r-has part
+
+at the august 2008 summer olympics , he came eleventh with the lightweight coxless four .
+[h]: lightweight coxless four; [t]: 2008 summer olympics
+[Pred]: follows
+[Gold]: r-has part
+
+silver is also present in other carbon - carbon bond skeletal rearrangements such as the quadricyclane to norbornadiene rearrangement , the cubane to cuneane rearrangement and the rearrangement of the cyclobutadiene dimer to cyclooctatetraene .
+[h]: carbon; [t]: cuneane
+[Pred]: has part
+[Gold]: r-has part
+
+residente o visitante ( ) is the second studio album by puerto rican urban / hip hop band calle 13 , released on april 24 , 2007 , by sony bmg .
+[h]: residente; [t]: calle 13
+[Pred]: has part
+[Gold]: r-has part
+
+the harbor of hampton roads is an important highway of commerce , especially for the cities of norfolk , portsmouth , and newport news .
+[h]: newport news; [t]: hampton roads
+[Pred]: r-owned by
+[Gold]: r-has part
+
+the facility came under united states army air forces control on 1 june 1947 , and united states air force ( usaf ) respectively on 18 september 1947 until now .
+[h]: united states air force; [t]: usaf
+[Pred]: r-follows
+[Gold]: r-has part
+
+regulation of receptor proteins occurs when the pdz domain on the ebp50 protein binds to the c - terminus of the beta-2 adrenergic receptor ( ß2-ar ) .
+[h]: pdz; [t]: ebp50
+[Pred]: has part
+[Gold]: r-has part
+
+the 2017 welsh open was being held as part of a new home nations series , introduced in the 2016/2017 season with the new english open , irish open and scottish open tournaments .
+[h]: scottish open; [t]: home nations series
+[Pred]: follows
+[Gold]: r-has part
+
+aristotelis vlachopoulos ( , 1866–1960 ) was a greek army officer who rose to the rank of lieutenant general and served as chief of the hellenic army general staff in 1920–21 .
+[h]: hellenic army general staff; [t]: greek army
+[Pred]: has part
+[Gold]: r-has part
+
+if water is added to solid or concentrated sodium hydroxide ( naoh ) , heat is released .
+[h]: hydroxide; [t]: naoh
+[Pred]: has part
+[Gold]: r-has part
+
+in the presence of pd / c , ammonium formate decomposes to hydrogen , carbon dioxide , and ammonia .
+[h]: hydrogen; [t]: ammonium
+[Pred]: follows
+[Gold]: r-has part
+
+at one point in the movie , social distortion 's mike ness sits on a porch and writes future underground hit another state of mind .
+[h]: mike ness; [t]: social distortion
+[Pred]: owned by
+[Gold]: r-has part
+
+the world champions after the 2012 summer olympics were the dutch ellen van dijk ( 2013 ) , german lisa brennauer ( 2014 ) and the new zealand linda villumsen ( 2015 ) .
+[h]: 2013; [t]: world champions
+[Pred]: r-follows
+[Gold]: r-has part
+
+former justice league members booster gold , captain atom , fire and ice also retain memories of wonder woman but seemingly no one else remembers her prior existence .
+[h]: booster gold; [t]: justice league
+[Pred]: has part
+[Gold]: r-has part
+
+in october 2017 , it was announced that bleeding fingers would score " the simpsons " , beginning with season 29 .
+[h]: season 29; [t]: the simpsons
+[Pred]: follows
+[Gold]: r-has part
+
+in july 2011 man gyllenhaal married stephen gyllenhaal , a director / producer who is the father of actors jake and maggie gyllenhaal .
+[h]: maggie gyllenhaal; [t]: stephen gyllenhaal
+[Pred]: r-mother
+[Gold]: father
+
+he also substituted the son of a milkman for ajit singh , raised the child as if he was the rightful heir to jaswant singh and denounced the real heir as an imposter .
+[h]: ajit singh; [t]: jaswant singh
+[Pred]: r-father
+[Gold]: father
+
+edward hay - drummond was a son of robert hay drummond , who was a son of the 8th earl of kinnoull ( 23 june 1689 – 1 september 1709 ) .
+[h]: robert hay drummond; [t]: the 8th earl of kinnoull
+[Pred]: r-father
+[Gold]: father
+
+on 15 march 963 , emperor romanos ii ( r. 959–963 ) unexpectedly died , leaving his young sons basil ii and constantine viii as emperors .
+[h]: basil ii; [t]: romanos ii
+[Pred]: r-father
+[Gold]: father
+
+in the upper section is portrayed theodelinda offering to john the baptist the iron crown of lombardy , together with her kneeling husband agilulf and their children adaloald and gundeberga .
+[h]: adaloald; [t]: agilulf
+[Pred]: r-mother
+[Gold]: father
+
+on 10 august 1697 he married penelope cadogan ( d. 1746 ) , sister of william cadogan , 1st earl cadogan , and daughter of henry cadogan .
+[h]: william cadogan, 1st earl cadogan; [t]: henry cadogan
+[Pred]: r-father
+[Gold]: father
+
+jelena married stjepan vukčić kosača and was mother of queen catherine of bosnia and vladislav hercegović .
+[h]: vladislav hercegović; [t]: stjepan vukčić kosača
+[Pred]: r-mother
+[Gold]: father
+
+gilman 's odd experiences seem to escalate as he dreams that he signs the " book of azathoth " under the commands of keziah , brown jenkin , and the infamous " black man . "
+[h]: black man; [t]: azathoth
+[Pred]: r-has part
+[Gold]: father
+
+just like his brothers hans and hidde , and his father roepie , the oldest of the kruize brothers played club hockey for hc klein zwitserland from the hague .
+[h]: hidde; [t]: roepie
+[Pred]: r-mother
+[Gold]: father
+
+karthi is the second son of actor sivakumar and his wife lakshmi .
+[h]: karthi; [t]: sivakumar
+[Pred]: r-mother
+[Gold]: father
+
+julia avita mamaea was the second daughter of julia maesa , a powerful roman woman of syrian origin , and syrian noble gaius julius avitus alexianus .
+[h]: julia avita mamaea; [t]: julius avitus
+[Pred]: r-mother
+[Gold]: father
+
+pedro bordaberry 's decision to seek a political base in montevideo contrasts with his father , dictator juan maria bordaberry , who had a long association with rural affairs .
+[h]: pedro bordaberry; [t]: juan maria bordaberry
+[Pred]: r-father
+[Gold]: father
+
+in 1985 she married michael gwisdek , with whom she has two sons , johannes and robert gwisdek .
+[h]: robert gwisdek; [t]: michael gwisdek
+[Pred]: r-father
+[Gold]: father
+
+in 1798 , king george iii 's youngest daughter , princess amelia , injured her knee .
+[h]: princess amelia; [t]: king george iii
+[Pred]: r-mother
+[Gold]: father
+
+her third husband was australian tennis player phil dent , and she is the mother of american tennis players brett hansen - dent and taylor dent .
+[h]: taylor dent; [t]: phil dent
+[Pred]: r-father
+[Gold]: father
+
+she was johanna of baden - baden ( 1704–1726 ) , the daughter of louis william , margrave of baden - baden and his wife sibylle auguste of saxe - lauenburg .
+[h]: johanna of baden-baden; [t]: louis william, margrave of baden-baden
+[Pred]: r-mother
+[Gold]: father
+
+charibert and his son chilperic were assassinated in 632 .
+[h]: chilperic; [t]: charibert
+[Pred]: mother
+[Gold]: father
+
+meleager of macedon ( greek : μελέαγρος ) was the brother of ptolemy keraunos and son of ptolemy i soter and eurydice .
+[h]: ptolemy keraunos; [t]: ptolemy i soter
+[Pred]: r-father
+[Gold]: father
+
+she was a sister of burundi 's last king ( or mwami ) , ntare v ( who had overthrown their father mwambutsa iv in 1966 ) , who was executed in 1972 .
+[h]: ntare v; [t]: mwambutsa iv
+[Pred]: r-mother
+[Gold]: father
+
+borommakot did n't appoint the new front palace as kromma khun anurak montri or ekkathat , the next in succession line , was proved to be incompetent .
+[h]: borommakot; [t]: ekkathat
+[Pred]: r-creator
+[Gold]: r-father
+
+the son of wholesaler peter martin anker , he was the brother of nils anker and herman anker .
+[h]: peter martin anker; [t]: nils anker
+[Pred]: father
+[Gold]: r-father
+
+king magnus had spent some time campaigning in ireland , and harald would thus be king sigurd 's half - brother .
+[h]: sigurd; [t]: magnus
+[Pred]: father
+[Gold]: r-father
+
+ferry porsche 's life was intimately connected with that of his father , ferdinand porsche , sr . , who began sharing his knowledge of mechanical engineering already in his childhood .
+[h]: ferdinand porsche; [t]: ferry porsche
+[Pred]: r-owned by
+[Gold]: r-father
+
+ælfhelm 's daughter , ælfgifu , married cnut the great , king of england between 1016 and 1035 , as a result of which ælfhelm became the grandfather of future english king harold harefoot .
+[h]: cnut the great; [t]: harold harefoot
+[Pred]: father
+[Gold]: r-father
+
+her father is jonathan guinness , 3rd baron moyne , the eldest son of diana mitford mosley and bryan guinness .
+[h]: bryan guinness; [t]: jonathan guinness, 3rd baron moyne
+[Pred]: father
+[Gold]: r-father
+
+ferdinand vii of spain had no male descendant , but two daughters , isabella ( later known as isabella ii of spain ) and luisa fernanda .
+[h]: ferdinand vii of spain; [t]: luisa fernanda
+[Pred]: mother
+[Gold]: r-father
+
+in 449 edeko , attila ’s advisor and the future father of odoacer , convinced zerco to return to attila ’s court and his wife .
+[h]: edeko; [t]: odoacer
+[Pred]: father
+[Gold]: r-father
+
+daughter of count menendo gonzález and his wife tutadomna moniz , ilduara had several brothers and sister , including elvira menéndez , wife of king alfonso v of león .
+[h]: menendo gonzález; [t]: elvira menéndez
+[Pred]: mother
+[Gold]: r-father
+
+mingyi swa was born to crown prince nanda and his chief consort hanthawaddy mibaya on 27 november 1558 in pegu ( bago ) .
+[h]: nanda; [t]: mingyi swa
+[Pred]: mother
+[Gold]: r-father
+
+he was a grandson of landowner and politician peter martin anker , and nephew of landowner and politician nils anker and school founder herman anker .
+[h]: peter martin anker; [t]: herman anker
+[Pred]: father
+[Gold]: r-father
+
+at the beginning of the 1860s the emperor of brazil , pedro ii , sought to marry his daughters , princesses isabel and leopoldina , to ensure his succession .
+[h]: pedro ii; [t]: leopoldina
+[Pred]: mother
+[Gold]: r-father
+
+alfred was the son of charles james blomfield , bishop of london,“a memoir of charles james blomfield ” blomfield , a : london , b. fellowes , 1863 and brother of the architect arthur blomfield .
+[h]: charles james blomfield; [t]: arthur blomfield
+[Pred]: father
+[Gold]: r-father
+
+international guests include : madonna , janet jackson , destiny 's child , cameron diaz , sarah jessica parker , will smith , jaden smith , ashton kutcher , tom cruise , etc .
+[h]: will smith; [t]: jaden smith
+[Pred]: r-mother
+[Gold]: r-father
+
+mahfiruz hatun ( 1590 – by 1610 or 1620 ) was a wife of ottoman sultan ahmed i ( r. 1603–17 ) and mother of sultan osman ii ( r. 1618–22 ) .
+[h]: ahmed i; [t]: osman ii
+[Pred]: r-mother
+[Gold]: r-father
+
+the film score was composed , co - orchestrated , and conducted by david newman , whose father , alfred newman , composed the score of the 1956 film of the same name .
+[h]: alfred newman; [t]: david newman
+[Pred]: father
+[Gold]: r-father
+
+and husband of gorgophone , daughter of the famous perseus .
+[h]: perseus; [t]: gorgophone
+[Pred]: mother
+[Gold]: r-father
+
+gay hostess was a granddaughter of the broodmare boudoir , whose other descendants included daiwa major , flower bowl and caracolero 's sire graustark .
+[h]: graustark; [t]: caracolero
+[Pred]: mother
+[Gold]: r-father
+
+muirchertach son of muiredach son of eógan son of niall naígiallach in a vat full of wine on the hilltop of cleitech above bóinn .
+[h]: eógan; [t]: muiredach
+[Pred]: father
+[Gold]: r-father
+
+" nereus " , in greek mythology , was the eldest son of pontus and gaia .
+[h]: pontus; [t]: nereus
+[Pred]: r-owned by
+[Gold]: r-father
+
+he was sired by fair trial , whose other offspring included palestine , festoon and court martial .
+[h]: fair trial; [t]: palestine
+[Pred]: r-follows
+[Gold]: r-father
+
+she was the sixth daughter of siemowit iv , duke of masovia and alexandra , a daughter of algirdas , grand duke of lithuania and sister of king władysław ii jagiełło of poland .
+[h]: algirdas; [t]: alexandra
+[Pred]: mother
+[Gold]: r-father
+
+indy is by triple crown winner seattle slew , and out of weekend surprise by secretariat .
+[h]: secretariat; [t]: weekend surprise
+[Pred]: r-owned by
+[Gold]: r-father
+
+the lineage was founded by constantine angelos , a minor noble from philadelphia ( asia minor ) , who married theodora komnene ( born 1096 ) , a daughter of emperor alexios i komnenos .
+[h]: alexios i komnenos; [t]: theodora komnene
+[Pred]: mother
+[Gold]: r-father
+
+and a distant cousin of cynan dindaethwy son of rhodri molwynog .
+[h]: rhodri molwynog; [t]: cynan dindaethwy
+[Pred]: father
+[Gold]: r-father
+
+he was an uncle of agricultural teacher werner hosewinckel christie , and through him a granduncle of pianist amalie christie , johan koren christie and werner hosewinckel christie .
+[h]: werner hosewinckel christie; [t]: amalie christie
+[Pred]: mother
+[Gold]: r-father
+
+he is the son of phyllis ( culbertson ) and william henry draper iii and the younger brother of actress polly draper .
+[h]: william henry draper iii; [t]: polly draper
+[Pred]: mother
+[Gold]: r-father
+
+however gerontius decided to betray constantine , and in 409 he proclaimed maximus as emperor in hispania .
+[h]: gerontius; [t]: maximus
+[Pred]: father
+[Gold]: r-father
+
+he is the son of dancer turned activist mallika sarabhai and publisher bipin shah , and grandson of the indian physicist dr vikram sarabhai and dancer mrinalini sarabhai .
+[h]: vikram sarabhai; [t]: mallika sarabhai
+[Pred]: mother
+[Gold]: r-father
+
+constantius was made to understand that he must succeed where maximian had failed and defeat carausius . barnes , " constantine and eusebius " , 8 , 15 ; williams , 71 .
+[h]: constantius; [t]: constantine
+[Pred]: follows
+[Gold]: r-father
+
+john charles olmsted ( 1852–1920 ) , the nephew and adopted son of frederick law olmsted , was an american landscape architect .
+[h]: frederick law olmsted; [t]: john charles olmsted
+[Pred]: father
+[Gold]: r-father
+
+safeway ( uk ) formed safeway stores ( ireland ) along with fitzwilton , taking over a number of former wellworths stores .
+[h]: wellworths; [t]: fitzwilton
+[Pred]: r-owned by
+[Gold]: owned by
+
+the purpose of the hudson tunnel project is to allow amtrak and new jersey transit to continue running between new york and new jersey while the deteriorating north river tunnels get repaired .
+[h]: north river tunnels; [t]: amtrak
+[Pred]: follows
+[Gold]: owned by
+
+birkhall was inherited by charles , prince of wales from queen elizabeth the queen mother , upon her death in 2002 .
+[h]: birkhall; [t]: charles, prince of wales
+[Pred]: father
+[Gold]: owned by
+
+the sanyō main line is operated by the two jr companies west japan railway company ( jr west ) and kyushu railway company ( jr kyushu ) .
+[h]: sanyō main line; [t]: jr west
+[Pred]: has part
+[Gold]: owned by
+
+on march 10 , 2016 , using the flexible assignment rule , alexander was assigned to the santa cruz warriors , the d - league affiliate of the golden state warriors .
+[h]: santa cruz warriors; [t]: golden state warriors
+[Pred]: r-has part
+[Gold]: owned by
+
+snowy hydro southcare was a rescue and aeromedical helicopter service based in canberra , australia from 1998 to 2017 .
+[h]: snowy hydro; [t]: australia
+[Pred]: has part
+[Gold]: owned by
+
+prior to the season , springvale came to an arrangement with the city of casey to relocate to the new casey fields multi - sports complex in cranbourne east .
+[h]: casey fields; [t]: city of casey
+[Pred]: r-has part
+[Gold]: owned by
+
+he followed this by joining the scottish football association , having head coach roles at scotland u17 , scotland u19 and scotland u21 teams .
+[h]: scotland u21; [t]: scottish football association
+[Pred]: r-has part
+[Gold]: owned by
+
+bell also obtained a 15 % interest in " the globe and mail " , ctvglobemedia 's other major asset , with the remaining 85 % owned by the thomson family .
+[h]: ctvglobemedia; [t]: thomson family
+[Pred]: r-owned by
+[Gold]: owned by
+
+the 1996 portrait of betty crocker , according to general mills , was partially inspired by a " computerized composite " of " 75 women of diverse backgrounds and ages . "
+[h]: betty crocker; [t]: general mills
+[Pred]: father
+[Gold]: owned by
+
+it is the third - largest national oil company in the people 's republic of china , after cnpc ( parent of petrochina ) and china petrochemical corporation ( parent of sinopec ) .
+[h]: sinopec; [t]: china petrochemical corporation
+[Pred]: r-owned by
+[Gold]: owned by
+
+both mctavish street and the mctavish reservoir in montreal are named for him .
+[h]: mctavish reservoir; [t]: montreal
+[Pred]: r-has part
+[Gold]: owned by
+
+24 frames factory is an indian film production company established by manchu vishnu , son of actor manchu mohan babu in 2007 and is subsidiary of sree lakshmi prasanna pictures .
+[h]: sree lakshmi prasanna pictures; [t]: mohan babu
+[Pred]: father
+[Gold]: owned by
+
+in 1897 , arthur meyer entrusted him with the direction of the illustrated literary supplement of the " gaulois " which had just been created with the title " le gaulois du dimanche " .
+[h]: le gaulois; [t]: arthur meyer
+[Pred]: creator
+[Gold]: owned by
+
+the losses suffered under a price war with scandinavian airlines ( sas ) and color air in 1998 and 1999 caused the airline to be taken over by the sas group in 2001 .
+[h]: scandinavian airlines; [t]: sas group
+[Pred]: r-follows
+[Gold]: owned by
+
+the china pr national football team is governed by the chinese football association ( cfa ) .
+[h]: china pr national football team; [t]: chinese football association
+[Pred]: r-owned by
+[Gold]: owned by
+
+south farmingdale is served by the farmingdale ( lirr station ) on the ronkonkoma branch of the long island rail road ( lirr ) .
+[h]: ronkonkoma branch; [t]: long island rail road (lirr)
+[Pred]: r-owned by
+[Gold]: owned by
+
+in this move , they founded a studio at this location , named ea redwood shores , which operated under the general " ea games " division .
+[h]: ea redwood shores; [t]: ea games
+[Pred]: r-owned by
+[Gold]: owned by
+
+mihailovich was previously a reporter for global news toronto and a correspondent for " " , a canadian investigative news magazine television series which airs nationally on global tv .
+[h]: global tv; [t]: global news
+[Pred]: owned by
+[Gold]: r-owned by
+
+it is produced by the company imperial tobacco following its acquisition of altadis in january 2008 in most countries , but produced and sold by reemtsma in germany .
+[h]: imperial tobacco; [t]: altadis
+[Pred]: owned by
+[Gold]: r-owned by
+
+it shares many parts with the aisin 450 - 43le that is used in toyota off - road vehicles .
+[h]: toyota; [t]: aisin
+[Pred]: follows
+[Gold]: r-owned by
+
+it is the centre of excellence in climatology ( centro de climatologia puc minas tempoclima ) , which was created through a partnership between the university and cemig ( companhia energética de minas gerais ) .
+[h]: minas gerais; [t]: cemig
+[Pred]: follows
+[Gold]: r-owned by
+
+according to the rté submission to oireachtas committee the proposed rté nl operated saorsat is expected to be a copy of saorview .
+[h]: rté; [t]: saorview
+[Pred]: has part
+[Gold]: r-owned by
+
+the series began airing in japan on tx network ( tv tokyo ) from october 13 to december 29 , 2014 .
+[h]: tv tokyo; [t]: tx network
+[Pred]: follows
+[Gold]: r-owned by
+
+for a short time he was also manager of the hotel netherland , which was built for earle by william waldorf astor .
+[h]: william waldorf astor; [t]: hotel netherland
+[Pred]: r-creator
+[Gold]: r-owned by
+
+in 2011 , the vietnam football federation invited stoichkov to become the head manager of vietnam national team .
+[h]: vietnam football federation; [t]: vietnam national team
+[Pred]: has part
+[Gold]: r-owned by
+
+three months after the win , the western new york flash was sold to the ownership group of north carolina fc and moved to cary , north carolina where they became the north carolina courage .
+[h]: north carolina fc; [t]: north carolina courage
+[Pred]: has part
+[Gold]: r-owned by
+
+it was held at santa clara 's estádio de são miguel in azores , portugal .
+[h]: azores; [t]: estádio de são miguel
+[Pred]: follows
+[Gold]: r-owned by
+
+on 18 july 2011 ordnance survey was transferred to the department for business , innovation and skills and on 28 february 2013 the fire service college was sold to capita .
+[h]: capita; [t]: fire service college
+[Pred]: follows
+[Gold]: r-owned by
+
+a 2006 re - organisation of the helicopter industry in russia created oboronprom ( russian helicopters ) a holding company to bring together mil and manufacturing plants .
+[h]: oboronprom; [t]: russian helicopters
+[Pred]: r-follows
+[Gold]: r-owned by
+
+in early august , the dfb awarded the bronze fritz walter medal in the u19 age group to volland .
+[h]: dfb; [t]: u19
+[Pred]: has part
+[Gold]: r-owned by
+
+the slim jim product line was sold to goodmark foods in 1982 and then to conagra in 1998 .
+[h]: conagra; [t]: slim jim
+[Pred]: follows
+[Gold]: r-owned by
+
+in 1906 , sherman and clark sold a controlling interest in their lap system to e.h. harriman ’s southern pacific railroad for a reported six million dollars .
+[h]: southern pacific railroad; [t]: sherman
+[Pred]: owned by
+[Gold]: r-owned by
+
+kred influence measurement , or kred , is a website created by peoplebrowsr that attempts to measure online social influence .
+[h]: peoplebrowsr; [t]: kred influence measurement
+[Pred]: r-creator
+[Gold]: r-owned by
+
+in 1997 , vulcanair purchased the design from finmeccanica ( agusta 's parent company ) , but although a small number of examples were produced , no series production was undertaken .
+[h]: finmeccanica; [t]: agusta
+[Pred]: owned by
+[Gold]: r-owned by
+
+on 22 november 2015 , using the flexible assignment rule , the bulls assigned bairstow to the austin spurs , the d - league affiliate of the san antonio spurs .
+[h]: san antonio spurs; [t]: austin spurs
+[Pred]: r-has part
+[Gold]: r-owned by
+
+in december 2007 , the song was used in an ad campaign for french vodka cîroc , featuring spokesperson sean combs .
+[h]: sean combs; [t]: cîroc
+[Pred]: r-has part
+[Gold]: r-owned by
+
+travelers heading to or from kennedy airport may use airtrain to connect with the long island rail road in jamaica or the new york city subway in jamaica or howard beach .
+[h]: long island rail road; [t]: jamaica
+[Pred]: owned by
+[Gold]: r-owned by
+
+the album spawned two more singles such as " love in the key of c " and " california " .
+[h]: california; [t]: love in the key of c
+[Pred]: r-follows
+[Gold]: follows
+
+various recordings of the composition appeared in the opening credits of all " the pink panther " films except " a shot in the dark " and " inspector clouseau " .
+[h]: inspector clouseau; [t]: a shot in the dark
+[Pred]: r-creator
+[Gold]: follows
+
+the song was included on the compilation albums " music bank " ( 1999 ) , " greatest hits " ( 2001 ) , and " the essential alice in chains " ( 2006 ) .
+[h]: greatest hits; [t]: music bank
+[Pred]: r-follows
+[Gold]: follows
+
+" rejoyce : the christmas album " was released after simpson 's most successful studio album of her career " in this skin " ( 2003 ) .
+[h]: rejoyce: the christmas album; [t]: in this skin
+[Pred]: r-follows
+[Gold]: follows
+
+these events are discussed by josephus in " the jewish war " and in " antiquities of the jews " and mentioned in the acts of the apostles .
+[h]: antiquities of the jews; [t]: the jewish war
+[Pred]: r-follows
+[Gold]: follows
+
+the easter vigil is held in the night between holy saturday and easter sunday , to celebrate the resurrection of jesus .
+[h]: easter sunday; [t]: holy saturday
+[Pred]: r-has part
+[Gold]: follows
+
+aultsville was named after samuel ault , a local businessman who represented stormont county in the legislative assembly of the province of canada and the canadian house of commons .
+[h]: canadian house of commons; [t]: legislative assembly of the province of canada
+[Pred]: has part
+[Gold]: follows
+
+the band released two albums , " all years leaving " in 2004 and " horse fabulous " in 2005 and had a succession of 5 top 40 uk singles .
+[h]: horse fabulous; [t]: all years leaving
+[Pred]: r-follows
+[Gold]: follows
+
+" mantaray " included three singles : " into a swan " , " here comes that day " and " about to happen " .
+[h]: here comes that day; [t]: into a swan
+[Pred]: r-follows
+[Gold]: follows
+
+since the arrival of the ibm rad6000 in the 2000s and the rad750 in the 2010s , using the nssc-1 has become unthinkable .
+[h]: rad750; [t]: ibm rad6000
+[Pred]: r-has part
+[Gold]: follows
+
+the group then released two albums as a quartet : " unbreakable " ( 2007 ) and " this is us " ( 2009 ) .
+[h]: this is us; [t]: unbreakable
+[Pred]: r-follows
+[Gold]: follows
+
+in june 1606 , the london company was granted a charter for a section of the continent south of that given to the plymouth company .
+[h]: london company; [t]: plymouth company
+[Pred]: r-owned by
+[Gold]: follows
+
+according to the sheet music published at musicnotes.com by universal music publishing group , the song is written in the key of g major ( recorded a half - step lower in f major ) .
+[h]: g major; [t]: f major
+[Pred]: has part
+[Gold]: follows
+
+it was written in d major ( thus using the chords d major , a major , b minor , and g major ) and was subsequently published on youtube .
+[h]: a major; [t]: d major
+[Pred]: has part
+[Gold]: follows
+
+however , the band has since released three other albums to date , " back to the rhythm " in 2007 , " rising " in 2009 and " elation " in 2012 .
+[h]: rising; [t]: back to the rhythm
+[Pred]: r-follows
+[Gold]: follows
+
+( 1998 ) the top of the asselian stage ( the base of the sakmarian stage ) is at the first appearance of the species " streptognathodus postfusus " .
+[h]: sakmarian; [t]: asselian
+[Pred]: r-has part
+[Gold]: follows
+
+this legion had been created in 197 for the ( successful ) campaign against parthia which ended in 198 with the sack of ctesiphon ( near modern baghdad , iraq ) .
+[h]: baghdad; [t]: ctesiphon
+[Pred]: has part
+[Gold]: follows
+
+and their albums " music from the motion picture " ( 2013 ) , " twice told tales " ( 2015 ) and " playing favorites " ( 2016 ) .
+[h]: twice told tales; [t]: music from the motion picture
+[Pred]: r-has part
+[Gold]: follows
+
+the diosphos painter was a pupil of the edinburgh painter , who also trained the sappho painter .
+[h]: sappho painter; [t]: edinburgh painter
+[Pred]: father
+[Gold]: follows
+
+although the akp received significantly more votes in 2007 than in 2002 , the number of parliamentary seats they controlled decreased due to the rules of the turkish electoral system .
+[h]: 2002; [t]: 2007
+[Pred]: follows
+[Gold]: r-follows
+
+it became arjona 's fourth album to reach number one , after " galería caribe " , " 5to piso " and " quién dijo ayer " ( 2007 ) .
+[h]: quién dijo ayer; [t]: 5to piso
+[Pred]: follows
+[Gold]: r-follows
+
+collar additionally described " thick as thieves " as " a heartfelt love letter to the temper trap 's fans who have stuck with them since " conditions " . "
+[h]: conditions; [t]: the temper trap
+[Pred]: follows
+[Gold]: r-follows
+
+religa was minister of health of poland in cabinets of kazimierz marcinkiewicz and jarosław kaczyński .
+[h]: kazimierz marcinkiewicz; [t]: jarosław kaczyński
+[Pred]: mother
+[Gold]: r-follows
+
+fasli year means period of 12 months from july to june .
+[h]: june; [t]: july
+[Pred]: follows
+[Gold]: r-follows
+
+" rare replay " uses the prior xbox 360 ports of " banjo - kazooie " , " banjo - tooie " , and " perfect dark " rather than emulating their originals .
+[h]: banjo-kazooie; [t]: banjo-tooie
+[Pred]: r-has part
+[Gold]: r-follows
+
+the 305 was a stylish range of medium - sized saloons and estates which replace the 304 , although that car remained in production for another two years .
+[h]: 304; [t]: 305
+[Pred]: follows
+[Gold]: r-follows
+
+four singles were released : " come into my life " , " freed from desire " , " suddenly " and " let a boy cry " .
+[h]: let a boy cry; [t]: come into my life
+[Pred]: follows
+[Gold]: r-follows
+
+overall bamberga is the tenth - brightest main - belt asteroid after , in order , vesta , pallas , ceres , iris , hebe , juno , melpomene , eunomia and flora .
+[h]: pallas; [t]: juno
+[Pred]: mother
+[Gold]: r-follows
+
+he went to new zealand again in 1977 , playing in two tests , and finally to south africa in 1980 , again playing in two tests .
+[h]: new zealand; [t]: south africa
+[Pred]: has part
+[Gold]: r-follows
+
+stöcklin also noted that an early mesozoic or late paleozoic rift separated the iranian plate from the arabian plate , and that another southern suture must be the remains of the neo - tethys ocean .
+[h]: paleozoic; [t]: mesozoic
+[Pred]: follows
+[Gold]: r-follows
+
+nvidia 's kepler and maxwell - based tegra socs .
+[h]: kepler; [t]: maxwell
+[Pred]: r-father
+[Gold]: r-follows
+
+the pliensbachian is preceded by the sinemurian and followed by the toarcian . see gradstein " et al . "
+[h]: pliensbachian; [t]: toarcian
+[Pred]: has part
+[Gold]: r-follows
+
+venis returned to action back in his old gimmick , at the 2002 royal rumble , where he entered at # 20 in the royal rumble match but was shortly after eliminated by steve austin .
+[h]: the royal rumble; [t]: 2002 royal rumble
+[Pred]: follows
+[Gold]: r-follows
+
+in embryonic diapause , the embryo ( blastocyst ) does not immediately implant in the uterus after sexual reproduction has created the zygote , but is maintained in a state of dormancy .
+[h]: zygote; [t]: embryo
+[Pred]: has part
+[Gold]: r-follows
+
+meanwhile , kenobi hid luke on tatooine while the galactic republic became the tyrannical galactic empire and vader systematically hunted down and killed the jedi .
+[h]: galactic republic; [t]: galactic empire
+[Pred]: has part
+[Gold]: r-follows
+
+lewald had previously argued for germany to be allowed to attend the 1928 summer olympics , after being banned in 1920 and 1924 .
+[h]: 1924; [t]: 1928 summer olympics
+[Pred]: follows
+[Gold]: r-follows
+
+although " fantastic " debuted with her highest sales since " negaigoto " , it still was n't as successful as " delightful " and " eventful " .
+[h]: eventful; [t]: negaigoto
+[Pred]: follows
+[Gold]: r-follows
+
+in february 2010 , after the release of " wonderland " , " faryl " was nominated for a classical brit award in the album category .
+[h]: faryl; [t]: wonderland
+[Pred]: follows
+[Gold]: r-follows
+
+the whig party , which evolved from the national republican party , attempted to change its image and reach out to new groups , including conservative jacksonians , anti - masons , and former federalists .
+[h]: national republican party; [t]: whig party
+[Pred]: has part
+[Gold]: r-follows
+
+horatio seymour 's electoral defeat in the 1868 election paled in comparison to the later nomination of liberal republican horace greeley 's disastrous 1872 presidential campaign .
+[h]: 1868; [t]: 1872 presidential campaign
+[Pred]: follows
+[Gold]: r-follows
+
+sncase acquired the failing sncam and moved its engineering operations to sncam 's headquarters at the former dewoitine factory in toulouse .
+[h]: sncam; [t]: sncase
+[Pred]: owned by
+[Gold]: r-follows
+
+" 11 " was the first release of new adams material since " colour me kubrick " in 2005 and the first studio album in four years since " room service " .
+[h]: room service; [t]: colour me kubrick
+[Pred]: follows
+[Gold]: r-follows
+
+it is shipped with nokia 's n800 , n810 and n900 internet tablets , and is also available for the 770 via the ' hacker editions ' of the operating system .
+[h]: n810; [t]: n900
+[Pred]: owned by
+[Gold]: r-follows
+
+windows , dos , some cp / m programs , openvms , and os/2 all use the slash to indicate command - line options .
+[h]: dos; [t]: windows
+[Pred]: follows
+[Gold]: r-follows
+
+the seat had been represented by the conservatives since january 1910 but it had elected liberals in 1880 and 1906 .
+[h]: 1906; [t]: january 1910
+[Pred]: follows
+[Gold]: r-follows
+
+netflix series include " daredevil " , " jessica jones " , " luke cage " , " iron fist " , " the defenders " and " the punisher " .
+[h]: luke cage; [t]: iron fist
+[Pred]: r-has part
+[Gold]: r-follows
+
+it is based on rebecca wells ' novel of the same name and its prequel collection of short stories , " little altars everywhere " .
+[h]: little altars everywhere; [t]: novel of the same name
+[Pred]: has part
+[Gold]: r-follows
+
+on 23 september 1994 , the shire of avoca was abolished , and , along with the shires of lexton and ripon , was merged into the newly created shire of pyrenees .
+[h]: shire of avoca; [t]: shire of pyrenees
+[Pred]: has part
+[Gold]: r-follows
+
+artoustes were licence - built by bristol siddeley ( formerly blackburn ) in the uk , hindustan aeronautics limited in india , and developed by continental cae in the usa as the continental t51 .
+[h]: blackburn; [t]: bristol siddeley
+[Pred]: owned by
+[Gold]: r-follows
+
+" smack that " , " i wanna love you " and " do n't matter " were certified 3x platinum by riaa .
+[h]: smack that; [t]: i wanna love you
+[Pred]: follows
+[Gold]: r-follows
+
+the tucson toros returned under the same ownership as the sidewinders , but they are not affiliated with a major league club .
+[h]: tucson toros; [t]: sidewinders
+[Pred]: has part
+[Gold]: r-follows
+
+in addition , glorious song foaled singspiel by in the wings .
+[h]: singspiel; [t]: glorious song
+[Pred]: follows
+[Gold]: mother
+
+as in 1138 salomea gave birth the future casimir ii the just , agnes was born a year earlier . oswald balzer , " genealogia piastów " , kraków 1895 , p. 183 .
+[h]: casimir ii the just; [t]: salomea
+[Pred]: r-father
+[Gold]: mother
+
+riad ghali ( 1919 – 12 july 1987 ) was the husband of fathia ghali the youngest daughter of king fuad i and nazli sabri .
+[h]: fathia ghali; [t]: nazli sabri
+[Pred]: r-mother
+[Gold]: mother
+
+later nicknamed " bloody mary " for her actions against protestants , she was the daughter of catherine of aragon ; she remained loyal to rome and sought to restore the roman church in england .
+[h]: bloody mary; [t]: catherine of aragon
+[Pred]: has part
+[Gold]: mother
+
+after christine kaufmann 's death in march 2017 , allegra curtis announced in october 2017 that she would be continuing with her mother 's cosmetics line .
+[h]: allegra curtis; [t]: christine kaufmann
+[Pred]: r-mother
+[Gold]: mother
+
+he was the youngest of keturah 's sons ; the others were zimran , jokshan , medan , midian , and ishbak .
+[h]: midian; [t]: keturah
+[Pred]: father
+[Gold]: mother
+
+his father , john gross , was a distinguished author and critic , and his mother , miriam gross , and sister , susanna gross , are prominent literary editors .
+[h]: susanna gross; [t]: miriam gross
+[Pred]: r-mother
+[Gold]: mother
+
+with his wife , memphis ( or according to others , cassiopeia ) ; he had one daughter , libya .
+[h]: libya; [t]: memphis
+[Pred]: r-mother
+[Gold]: mother
+
+in 1292 , he married marie of brittany , daughter of john ii , duke of brittany and beatrice of england .
+[h]: marie of brittany; [t]: beatrice of england
+[Pred]: r-mother
+[Gold]: mother
+
+in a late version of the legendarium , galadriel fought on the side of the teleri , her mother eärwen 's people , against the fëanorians .
+[h]: galadriel; [t]: eärwen
+[Pred]: r-mother
+[Gold]: mother
+
+melaina was also identified with thyia who is named as the mother of delphos in other traditions .
+[h]: delphos; [t]: thyia
+[Pred]: r-mother
+[Gold]: mother
+
+among these is one he co - wrote with his wife , rosalynn , and a children 's book illustrated by his daughter , amy .
+[h]: amy; [t]: rosalynn
+[Pred]: r-mother
+[Gold]: mother
+
+anna of glogau ( 1250/52 – 25 june 1271 ) was the eldest child of konrad i , duke of silesia - glogau and his first wife salome of greater poland .
+[h]: anna of glogau; [t]: salome of greater poland
+[Pred]: r-mother
+[Gold]: mother
+
+hunt and his first wife , charlotte mary bawtree , were the grandparents of actress elizabeth inglis and great - grandparents of american actress sigourney weaver .
+[h]: sigourney weaver; [t]: elizabeth inglis
+[Pred]: r-mother
+[Gold]: mother
+
+bruce and kris had two daughters together , kendall ( born 1995 ) and kylie ( born 1997 ) .
+[h]: kylie; [t]: kris
+[Pred]: r-mother
+[Gold]: mother
+
+it is also the birthplace of dr. martin luther king jr. and coretta scott king 's two eldest children , yolanda and martin luther iii .
+[h]: yolanda; [t]: coretta scott king
+[Pred]: r-mother
+[Gold]: mother
+
+he is the son of actors clu gulager and the late miriam byrd nethery , and the brother of actor tom gulager .
+[h]: tom gulager; [t]: miriam byrd nethery
+[Pred]: r-father
+[Gold]: mother
+
+gene twombly was bea benaderet 's second husband and the stepfather of actor jack bannon , and they resided in calabasas , california .
+[h]: jack bannon; [t]: bea benaderet
+[Pred]: r-father
+[Gold]: mother
+
+toussaud was a multiple stakes winner in england and a blue hen broodmare who would produce five grade i winners ( including chester house ) from five different stallions .
+[h]: chester house; [t]: toussaud
+[Pred]: r-owned by
+[Gold]: mother
+
+eudoxia epiphania ( ) ( also known as epiphania , eudocia or eudokia ) was the only daughter of the byzantine emperor heraclius and his first wife eudokia .
+[h]: eudoxia epiphania; [t]: eudokia
+[Pred]: r-mother
+[Gold]: mother
+
+in 710 , emperor zhongzong died suddenly — a death that traditional historians believed to be poisoning carried out by his powerful wife empress wei and daughter li guo'er the princess anle .
+[h]: princess anle; [t]: empress wei
+[Pred]: r-mother
+[Gold]: mother
+
+danny takes interest in julie mayer ( andrea bowen ) , susan 's daughter , and asks her to start tutoring him .
+[h]: julie mayer; [t]: susan
+[Pred]: r-mother
+[Gold]: mother
+
+dyer showed promise as a baritone singer and was trained by clara novello davies , mother of ivor novello .
+[h]: clara novello davies; [t]: ivor novello
+[Pred]: father
+[Gold]: r-mother
+
+first lady jacqueline kennedy , who rarely attended democratic party events , spent the day at the loudon hunt horse show with her children , john - john and caroline .
+[h]: jacqueline kennedy; [t]: john-john
+[Pred]: father
+[Gold]: r-mother
+
+when ferdinand 's father , alfonso ix of león , died in 1230 , his will delivered the kingdom to his older daughters sancha and dulce , from his first marriage to teresa of portugal .
+[h]: teresa of portugal; [t]: dulce
+[Pred]: mother
+[Gold]: r-mother
+
+with his wife rothilde , daughter of charles the bald and richilde of provence , they had :
+[h]: richilde of provence; [t]: rothilde
+[Pred]: mother
+[Gold]: r-mother
+
+a flat on the second floor of the house was occupied by albert einstein , his wife mileva marić and their son hans einstein from 1903 to 1905 .
+[h]: mileva marić; [t]: hans einstein
+[Pred]: father
+[Gold]: r-mother
+
+in september 1200 he may have been present at ariza when peter ii of aragon received the local castle from his mother , sancha .
+[h]: sancha; [t]: peter ii of aragon
+[Pred]: father
+[Gold]: r-mother
+
+her only two surviving siblings were josephine , princess of hohenzollern ( mother of carol i of romania and queen stephanie of portugal ) and marie , duchess of hamilton .
+[h]: josephine, princess of hohenzollern; [t]: queen stephanie of portugal
+[Pred]: mother
+[Gold]: r-mother
+
+gita sahgal was born in india , the daughter of the novelist nayantara sahgal .
+[h]: nayantara sahgal; [t]: gita sahgal
+[Pred]: father
+[Gold]: r-mother
+
+one says that it was named in honor of the feast day of saint monica ( mother of saint augustine ) , but her feast day is actually may 4 .
+[h]: saint monica; [t]: saint augustine
+[Pred]: father
+[Gold]: r-mother
+
+vibia aurelia sabina ( 170-died before 217 ) , daughter and youngest child of roman emperor marcus aurelius and roman empress faustina the younger was a great , great niece to vibia sabina .
+[h]: faustina the younger; [t]: vibia aurelia sabina
+[Pred]: mother
+[Gold]: r-mother
+
+lois roden 's son george roden intended to be the group 's next leader and considered koresh an interloper .
+[h]: lois roden; [t]: george roden
+[Pred]: father
+[Gold]: r-mother
+
+after actress jennifer aniston rose to fame , the film gained notoriety because her mother , former actress ' nancy dow ' ( qv ) , had a role in it .
+[h]: nancy dow; [t]: jennifer aniston
+[Pred]: mother
+[Gold]: r-mother
+
+martin 's oboe teacher was margaret eliot ( the mother of jane asher , who would later become involved with paul mccartney ) .
+[h]: margaret eliot; [t]: jane asher
+[Pred]: mother
+[Gold]: r-mother
+
+kazuko 's daughter okiko became empress meishō , thus posthumously making oichi both a grandmother to a shogun and a great - grandmother to an empress .
+[h]: kazuko; [t]: empress meishō
+[Pred]: mother
+[Gold]: r-mother
+
+while carole king is the lead singer of this song in the 1974 version , her daughters louise goffin and sherry goffin sang backup .
+[h]: carole king; [t]: louise goffin
+[Pred]: mother
+[Gold]: r-mother
+
+violet dickson had a son , saud ( died 2005 ) , and a daughter , zahra freeth ( née dickson ) , also an author on middle eastern topics .
+[h]: violet dickson; [t]: zahra freeth
+[Pred]: mother
+[Gold]: r-mother
+
+after the death of alghu in 1266 , orghana nominated her son mubarak shah by her first husband , qara hulagu as khan of the chagatai khanate .
+[h]: orghana; [t]: mubarak shah
+[Pred]: father
+[Gold]: r-mother
+
+the inscription on the cairo fragment describes khenthap as the mother of king djer . aidan dodson & dyan hilton : " the complete royal families of ancient egypt " .
+[h]: khenthap; [t]: djer
+[Pred]: father
+[Gold]: r-mother
+
+this adopted son married aufidia ; their daughter was livia .
+[h]: aufidia; [t]: livia
+[Pred]: mother
+[Gold]: r-mother
+
+the daughter of actress polly adams and actor richard owens , she is the sister of fellow actress caroline harker .
+[h]: polly adams; [t]: caroline harker
+[Pred]: mother
+[Gold]: r-mother
+
+" young avengers presents " # 2 wiccan and speed begin searching for the scarlet witch , whom they believe to be their mother .
+[h]: scarlet witch; [t]: wiccan
+[Pred]: has part
+[Gold]: r-mother
+
+nicolson was the elder son of authors harold nicolson and vita sackville - west and the brother of writer and politician nigel .
+[h]: vita sackville-west; [t]: nigel
+[Pred]: father
+[Gold]: r-mother
+
+her sister flora was the mother of peter solomon benenson , founder of amnesty international and her sister manya was the noted translator of " doctor zhivago " .
+[h]: flora; [t]: peter solomon benenson
+[Pred]: father
+[Gold]: r-mother
+
+when anna komnene , the first child of alexios i and irene doukaina was born , she was promptly betrothed to constantine , which confirmed his position as heir . kazhdan , pg .
+[h]: irene doukaina; [t]: anna komnene
+[Pred]: mother
+[Gold]: r-mother
+
+furthermore , she supports her mother arlyn phoenix in the charity organisation " river phoenix centre for peacebuilding " , where she is the office manager .
+[h]: arlyn phoenix; [t]: river phoenix
+[Pred]: r-has part
+[Gold]: r-mother
+
+cynidr was the son of st. gwladys , t.
+[h]: gwladys; [t]: cynidr
+[Pred]: mother
+[Gold]: r-mother
+
+ehle is married to english actress rosemary harris , and is the father of actress jennifer ehle .
+[h]: rosemary harris; [t]: jennifer ehle
+[Pred]: mother
+[Gold]: r-mother
+
+clark 's former mother - in - law and sister - in - law are the well - known american authors mary and carol higgins clark , respectively .
+[h]: mary; [t]: carol higgins clark
+[Pred]: mother
+[Gold]: r-mother
+
+jörmungandr , alternately referred to as the midgard serpent or world serpent , is a sea serpent of the norse mythology , the middle child of loki and the giantess angrboða .
+[h]: angrboða; [t]: world serpent
+[Pred]: r-has part
+[Gold]: r-mother
+
+norodom sihanouk died on october 15 , 2012 in beijing , china , and survived by his son , current king norodom sihamoni , and his wife , norodom monineath .
+[h]: norodom monineath; [t]: norodom sihamoni
+[Pred]: father
+[Gold]: r-mother
+
+she was maria du fresnay 's mother as well as marie - caroline du fresnay 's and ange du fresnay 's grandmother .
+[h]: maria du fresnay; [t]: marie-caroline du fresnay
+[Pred]: mother
+[Gold]: r-mother
+
+when alexander died in 1124 , the crown passed to margaret 's fourth son david i , who had spent most of his life as an english baron .
+[h]: margaret; [t]: alexander
+[Pred]: father
+[Gold]: r-mother
+
+constance of wrocław was born in 1227 , the second child of henry ii the pious and his wife anna of bohemia , the daughter of ottokar i of bohemia and constance of hungary .
+[h]: constance of hungary; [t]: anna of bohemia
+[Pred]: mother
+[Gold]: r-mother
+
+börte had three more sons , chagatai ( 1187–1241 ) , ögedei ( 1189–1241 ) , and tolui ( 1190–1232 ) .
+[h]: börte; [t]: ögedei
+[Pred]: r-father
+[Gold]: r-mother
+
+henry 's plan was for alfonso de la cerda to become king of leon , marrying the infanta isabel de castilla y de molina , daughter of maria de molina and sister of ferdinand iv .
+[h]: maria de molina; [t]: isabel de castilla y de molina
+[Pred]: mother
+[Gold]: r-mother
+
+in support of " slave to the empire " , t & n went on tour in late 2012 , playing shows in the united states , eastern asia and europe between october and december .
+[h]: slave to the empire; [t]: t & n
+[Pred]: r-follows
+[Gold]: creator
+
+her stepgrandfather was yevgeny vuchetich , the famous sculptor behind the motherland calls , who married her paternal grandmother , the art historian sarah ( née samuel ) valerius .
+[h]: the motherland calls; [t]: yevgeny vuchetich
+[Pred]: r-mother
+[Gold]: creator
+
+many former idists , such as otto jespersen ( who created novial ) left the movement , bleeding ido of leaders .
+[h]: novial; [t]: otto jespersen
+[Pred]: r-father
+[Gold]: creator
+
+the renewal of the apostolic palace was a first step in the decoration of the private chapel of the pope , the niccoline chapel , by fra angelico and his assistant benozzo gozzoli .
+[h]: niccoline chapel; [t]: fra angelico
+[Pred]: owned by
+[Gold]: creator
+
+the cologne artist gunter demnig laid 13 stolperstein memorial blocks for victims of national socialism on the 11 and 12 august in the district of braunau am inn .
+[h]: stolperstein; [t]: gunter demnig
+[Pred]: owned by
+[Gold]: creator
+
+he includes elements of crossover fiction , incorporating the arthur conan doyle characters of sherlock holmes and james moriarty into his setting .
+[h]: james moriarty; [t]: arthur conan doyle
+[Pred]: father
+[Gold]: creator
+
+on july 4 , 2012 , ironhide game studio announced a comic version of " kingdom rush " that would be available for mobile and tablet devices .
+[h]: kingdom rush; [t]: ironhide game studio
+[Pred]: r-follows
+[Gold]: creator
+
+they worked with harry shearer and rob reiner on a tv pilot in 1978 for a sketch comedy show called the tv show , which featured a parody rock band called spinal tap .
+[h]: spinal tap; [t]: harry shearer
+[Pred]: has part
+[Gold]: creator
+
+noy alooshe (; born 13 august 1979 ) is an israeli journalist and musician of tunisian jewish descent best known outside israel for his zenga zenga spoof song on muammar gaddafi .
+[h]: zenga zenga; [t]: noy alooshe
+[Pred]: r-father
+[Gold]: creator
+
+" the international 2014 " was announced by valve corporation in march 2014 to be taking place in the new venue of keyarena in seattle .
+[h]: the international; [t]: valve corporation
+[Pred]: owned by
+[Gold]: creator
+
+this spurred the invention of rejewski 's cryptologic bomb and zygalski 's perforated sheets . rejewski , " summary of our methods ... " , pp .
+[h]: cryptologic bomb; [t]: rejewski
+[Pred]: owned by
+[Gold]: creator
+
+the new adventures of beany and cecil was a revival of bob clampett 's " beany and cecil " .
+[h]: beany and cecil; [t]: bob clampett
+[Pred]: father
+[Gold]: creator
+
+version on the françois vase by kleitias . the sections of this scene linked in the discussion are on the perseus project website .
+[h]: kleitias; [t]: françois vase
+[Pred]: creator
+[Gold]: r-creator
+
+chuck forsberg collected a number of modifications into his ymodem protocol , but poor implementation led to a further fracturing before they were re - unified by his later zmodem protocol .
+[h]: ymodem; [t]: chuck forsberg
+[Pred]: has part
+[Gold]: r-creator
+
+on july 30 , 2008 , the federal reserve announced several actions to further increase liquidity , including an extension of the primary dealer credit facility , through january 30 , 2009.federal reserve .
+[h]: federal reserve; [t]: primary dealer credit facility
+[Pred]: r-follows
+[Gold]: r-creator
+
+sophie audouin - mamikonian , who is also the author of other series , has so far written eleven " tara duncan " volumes in french .
+[h]: sophie audouin-mamikonian; [t]: tara duncan
+[Pred]: r-mother
+[Gold]: r-creator
+
+in 2005 , travis oliphant created numpy by incorporating features of the competing numarray into numeric , with extensive modifications .
+[h]: travis oliphant; [t]: numpy
+[Pred]: r-has part
+[Gold]: r-creator
+
+unfortunately , stephanie had to suspend her studies in her last year of university after she had been offered her first major role in tvb drama ' gilded chopsticks ' .
+[h]: tvb; [t]: gilded chopsticks'
+[Pred]: has part
+[Gold]: r-creator
+
+the ninth series of dancing on ice aired from 5 january – 9 march 2014 on itv .
+[h]: itv; [t]: dancing on ice
+[Pred]: follows
+[Gold]: r-creator
+
+he has also composed the music for the tv show ant & dec 's " pokerface " on itv .
+[h]: ant & dec; [t]: pokerface
+[Pred]: r-follows
+[Gold]: r-creator
+
+in 2006 , hall played the role of laura hammond in the multi award - winning , jimmy mcgovern drama , " the street " .
+[h]: jimmy mcgovern; [t]: the street
+[Pred]: r-has part
+[Gold]: r-creator
+
+dave cockrum created the starjammers , including corsair , and convinced " " writer chris claremont to use the characters for this series .
+[h]: dave cockrum; [t]: corsair
+[Pred]: r-has part
+[Gold]: r-creator
+
+acc: 69.28571319580078
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+|        | has  | r-ha | fath | r-fa | owne | r-ow | foll | r-fo | moth | r-mo | crea | r-cr |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| has pa | 53   | 6    | 0    | 2    | 0    | 2    | 0    | 4    | 1    | 1    | 1    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-has  | 8    | 47   | 0    | 0    | 1    | 2    | 6    | 5    | 0    | 0    | 0    | 1    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| father | 0    | 1    | 51   | 8    | 0    | 0    | 0    | 0    | 1    | 9    | 0    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-fath | 0    | 0    | 12   | 39   | 0    | 3    | 1    | 1    | 11   | 2    | 0    | 1    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| owned  | 2    | 4    | 3    | 0    | 52   | 6    | 1    | 1    | 0    | 0    | 1    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-owne | 4    | 2    | 0    | 0    | 5    | 50   | 6    | 1    | 0    | 0    | 0    | 2    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| follow | 4    | 4    | 1    | 0    | 0    | 1    | 51   | 8    | 0    | 0    | 0    | 1    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-foll | 8    | 2    | 0    | 1    | 3    | 0    | 16   | 38   | 2    | 0    | 0    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| mother | 1    | 0    | 1    | 3    | 0    | 1    | 1    | 0    | 48   | 15   | 0    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-moth | 1    | 2    | 13   | 1    | 0    | 0    | 0    | 0    | 18   | 35   | 0    | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| creato | 1    | 0    | 2    | 2    | 4    | 0    | 0    | 2    | 0    | 1    | 58   | 0    |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
+| r-crea | 2    | 3    | 0    | 0    | 0    | 0    | 1    | 2    | 0    | 1    | 1    | 60   |
++--------+------+------+------+------+------+------+------+------+------+------+------+------+
