@@ -10,7 +10,7 @@ from tqdm import trange
 from torch.optim.lr_scheduler import LambdaLR
 from torch.utils.data import DataLoader
 import torch.nn as nn
-from datamodels.PCNNDataModel import collate_fn
+from datamodels.DataModel1 import collate_fn
 import datamodels
 import models
 import utils

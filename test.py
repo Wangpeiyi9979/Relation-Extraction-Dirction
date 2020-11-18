@@ -21,7 +21,7 @@ from sklearn.metrics import confusion_matrix
 import datamodels
 import models
 import utils
-from datamodels.PCNNDataModel import collate_fn
+from datamodels.DataModel1 import collate_fn
 from configs import PCNNConfig
 
 def cut_name(data_list, max_length=5):
