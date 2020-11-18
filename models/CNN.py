@@ -20,13 +20,11 @@ class CNN(BasicModule):
                                           word2vec_file=opt.word2vec_txt_path,
                                           use_gpu=opt.use_gpu)
         self.dropout = nn.Dropout(opt.dropout)
-        self.sen_encoder = Encoder(
-            enc_method='cnn',
+        self.sen_encoder = CNNEncoder(
             filters_num=opt.filter_num,
             filters=opt.filters,
-            f_dim=self.word_emb.word_dim)
+            din=opt.word_dim)
         self.linear = nn.Linear(opt.filter_num * len(opt.filters), opt.class_num)
-        self.apply(self.weights_init)
 
     def get_sen_feature(self, input):
         max_sen_length = input['num:length'].max().item()

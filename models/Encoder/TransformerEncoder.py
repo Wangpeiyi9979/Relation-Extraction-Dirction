@@ -2,14 +2,12 @@
 # AUTHOR: Shun Zheng
 # DATE: 19-9-19
 
-
 import copy
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import math
-
 
 class PositionalEncoding(nn.Module):
     """Implement the PE function."""
@@ -36,25 +34,26 @@ class PositionalEncoding(nn.Module):
         return self.dropout(x)
 
 class TransformerEncoder(nn.Module):
-    def __init__(self, input_dim, output_dim, d_model, nhead, num_layers, drop_out=0.1):
+    def __init__(self, d_model=512, nhead=8, num_layers=6, drop_out=0.1):
         super(TransformerEncoder, self).__init__()
         encoder_layer = nn.TransformerEncoderLayer(d_model=d_model, nhead=nhead)
         self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
-        self.proj_linear_before = nn.Linear(input_dim, d_model)
         self.position_emb = PositionalEncoding(d_model, dropout=drop_out)
-        self.proj_linear_after = nn.Linear(d_model, output_dim)
         self._init_weight()
 
     def _init_weight(self):
-        for p in self.parameters():
-            if p.dim() > 1:
-                nn.init.xavier_uniform_(p)
-
+        for name, param in self.named_parameters():
+            if param.dim() > 1:
+                if 'weight' in name:
+                    nn.init.xavier_normal_(param)
+                else:
+                    nn.init.constant_(param, 0.0)
     def forward(self, x, src_key_padding_mask=None):
         """
-        x : B x L x input_dim
+        x : B x L x d_model
+        src_key_padding_mask: B x L (1为需要mask的token)
+        return : B x L x d_model
         """
-        x = self.proj_linear_before(x) # B x L x d_model
         x = self.position_emb(x)
         x = x.permute(1, 0 ,2).contiguous() # L x B x d_model
         if src_key_padding_mask is None:
@@ -62,5 +61,4 @@ class TransformerEncoder(nn.Module):
         else:
             x = self.transformer_encoder(x, src_key_padding_mask=src_key_padding_mask)  # L x B x d_model
         x = x.permute(1, 0, 2).contiguous() # B x L x d_model
-        x = self.proj_linear_after(x) # B x L x out_dim
         return x

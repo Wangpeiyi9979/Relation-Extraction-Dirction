@@ -9,8 +9,7 @@ import torch
 import torch.nn as nn
 from .Embedding.word2vec import Word2vec_Embedder
 from .BasicModule import BasicModule
-from .Encoder.basic_encoder import Encoder
-
+from .Encoder.CNNEncoder import CNNEncoder
 class PCNN(BasicModule):
     def __init__(self, opt):
         super(PCNN, self).__init__()
@@ -22,13 +21,11 @@ class PCNN(BasicModule):
         self.pos1_emb = nn.Embedding(self.opt.sen_max_length * 2, opt.pos_dim)
         self.pos2_emb = nn.Embedding(self.opt.sen_max_length * 2, opt.pos_dim)
         self.dropout = nn.Dropout(opt.dropout)
-        self.sen_encoder = Encoder(
-            enc_method='cnn',
+        self.sen_encoder = CNNEncoder(
             filters_num=opt.filter_num,
             filters=opt.filters,
-            f_dim=self.word_emb.word_dim + opt.pos_dim * 2)
+            din=opt.word_dim+2*opt.pos_dim)
         self.linear = nn.Linear(opt.filter_num * len(opt.filters), opt.class_num)
-        self.apply(self.weights_init)
 
     def get_sen_feature(self, input):
         max_sen_length = input['num:length'].max().item()

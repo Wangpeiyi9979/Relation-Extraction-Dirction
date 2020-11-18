@@ -9,11 +9,10 @@ import torch
 import torch.nn as nn
 from .Embedding.word2vec import Word2vec_Embedder
 from .BasicModule import BasicModule
-from .Encoder.basic_encoder import Encoder
-
-class PCNNEntity(BasicModule):
+from .Encoder.LSTMEncoder import LSTMEncoder
+class PLSTM(BasicModule):
     def __init__(self, opt):
-        super(PCNNEntity, self).__init__()
+        super(PLSTM, self).__init__()
         self.model_name = opt.model
         self.opt = opt
         self.word_emb = Word2vec_Embedder(word_file=opt.vocab_txt_path,
@@ -22,12 +21,11 @@ class PCNNEntity(BasicModule):
         self.pos1_emb = nn.Embedding(self.opt.sen_max_length * 2, opt.pos_dim)
         self.pos2_emb = nn.Embedding(self.opt.sen_max_length * 2, opt.pos_dim)
         self.dropout = nn.Dropout(opt.dropout)
-        self.sen_encoder = Encoder(
-            enc_method='cnn',
-            filters_num=opt.filter_num,
-            filters=opt.filters,
-            f_dim=self.word_emb.word_dim + opt.pos_dim * 2)
-        self.linear = nn.Linear(3*opt.filter_num * len(opt.filters), opt.class_num)
+        self.sen_encoder = LSTMEncoder(
+            din=opt.word_dim+2*opt.pos_dim,
+            dout=opt.lstm_dout // 2,
+            num_layers=opt.num_layers)
+        self.linear = nn.Linear(opt.lstm_dout, opt.class_num)
 
     def get_sen_feature(self, input):
         max_sen_length = input['num:length'].max().item()
@@ -36,25 +34,12 @@ class PCNNEntity(BasicModule):
         pos2_emb = self.pos2_emb(input['num:pos2'])[:, :max_sen_length, :]
         embeddings = torch.cat([embeddings, pos1_emb, pos2_emb], 2)
         tout = self.sen_encoder(embeddings, input['num:length'])
-        tout = self.dropout(tout)  # B * N / Q x L x dim
+        tout = self.dropout(tout)  # B  x L x dim
         return tout
 
-    def forward(self, inputs):
-        x = self.get_sen_feature(inputs)
-        sen_feature, _ = torch.max(x, 1)
-        head_feature = []
-        tail_feature = []
-        head_spans = inputs['var:h_span']
-        tail_spans = inputs['var:t_span']
-        for idx, (head_span, tail_span) in enumerate(zip(head_spans, tail_spans)):
-            head_rep = torch.mean(x[idx][head_span[0]: head_span[1]], 0)
-            tail_rep = torch.mean(x[idx][tail_span[0]: tail_span[1]], 0)
-            head_feature.append(head_rep)
-            tail_feature.append(tail_rep)
-        head_feature = torch.stack(head_feature, 0)
-        tail_feature = torch.stack(tail_feature, 0)
-        feature = torch.cat([sen_feature, head_feature, tail_feature], -1)
-
-        logit = self.linear(feature)
+    def forward(self, input):
+        x = self.get_sen_feature(input)
+        x, _ = torch.max(x, 1)
+        logit = self.linear(x)
         _, pred = torch.max(logit, 1)
         return logit, pred

@@ -14,7 +14,6 @@ from tqdm import tqdm
 import multiprocessing
 import json
 
-
 class Word2vec_Embedder(nn.Module):
 
     def __init__(self, word_file: str, word2vec_file=None, static=False, use_gpu=True, UNKNOW_TOKEN='[UNK]',
@@ -30,7 +29,6 @@ class Word2vec_Embedder(nn.Module):
         @param word_dim: 当word2vec_file和npy_file都没有给定时，使用embedding_size初始化
         """
         super(Word2vec_Embedder, self).__init__()
-        self.left_word_num = 0  # 用来word2vec中丢失的原始vocab单词数
         self.UNKNOW_TOKEN = UNKNOW_TOKEN
         self.PADDING_TOKEN = PADDING_TOKEN
         self.static = static
@@ -38,21 +36,19 @@ class Word2vec_Embedder(nn.Module):
         self.vocab_size, self.word2id, self.id2word = self._get_vocab_size_and_word2id(word_file)
         self.npy_file = npy_file
 
-        if npy_file is not None:
-            if os.path.exists(npy_file):
-                self.word_dim, self.embedder = self._get_word_dim_and_embedder_from_npy(npy_file)
-            else:
+        try:
+            self.word_dim, self.embedder = self._get_word_dim_and_embedder_from_npy(npy_file)
+        except:
+            if word2vec_file is not None:
+                self.left_word_num = 0  # 用来word2vec中丢失的原始vocab单词数
                 self.word_dim, self.embedder = self._get_word_dim_and_embedder_from_txt(word2vec_file)
-        elif word2vec_file is not None:
-            self.word_dim, self.embedder = self._get_word_dim_and_embedder_from_txt(word2vec_file)
-
-        else:
-            self.left_word_num = self.vocab_size
-            if word_dim is None:
-                raise EnvironmentError("word2vec_file、npy_file and word_dim are can not be all None")
-            self.word_dim = word_dim
-            self.embedder = nn.Embedding(self.vocab_size, self.word_dim)
-
+            else:
+                if word_dim is None:
+                    raise EnvironmentError("word2vec_file、npy_file and word_dim are can not be all None")
+                print('no pre-trained wordvec, random init')
+                self.left_word_num = self.vocab_size
+                self.word_dim = word_dim
+                self.embedder = nn.Embedding(self.vocab_size, self.word_dim)
         self.report_info()
 
     def report_info(self):
@@ -154,7 +150,7 @@ class Word2vec_Embedder(nn.Module):
         return word_dim, embedder
 
     def _get_word_dim_and_embedder_from_npy(self, npy_file):
-        self.left_word_num = 'x'
+        self.left_word_num = 'x'  # 从npy中读取，不知道丢失了多少
         look_up_table = np.load(npy_file)
         look_up_table = torch.from_numpy(look_up_table)
         word_dim = len(look_up_table[0])
@@ -182,7 +178,7 @@ class Word2vec_Embedder(nn.Module):
         # 按最长句子进行padding
         tokens_padding_id_lists = list(
             map(lambda x: x + [self.word2id[self.PADDING_TOKEN]] * (max_len - len(x)), tokens_id_lists))
-        tokens_padding_id_lists = torch.LongTensor(tokens_padding_id_lists)
+        tokens_padding_id_lists = torch.tensor(tokens_padding_id_lists).long()
         if self.use_gpu is True:
             tokens_padding_id_lists = tokens_padding_id_lists.cuda()
         embeddings = self.embedder(tokens_padding_id_lists)
