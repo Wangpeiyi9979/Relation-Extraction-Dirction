@@ -6,18 +6,37 @@
 @File : create_data.py
 """
 
-# 创建label.txt
+import torch
 import json
 import numpy
 import sys
-chose_id2name = json.load(open('dataset/FewRel/raw/chose_id2name.json'))
+import torch
+
 all_chose_data = []
 all_labels = []
-reverse_data_train_path = 'dataset/reverse_data_train.json'
-reverse_data_val_path = 'dataset/reverse_data_val.json'
-label_path = './tool_data/label.txt'
-per_class_num = 700 / 2
-import torch
+all_exist_rel = set()
+all_exist_id2name = {}
+
+
+def add_rel(path, id2name):
+    data = json.load(open(path))
+    for key in data:
+        all_exist_rel.add(key)
+        all_exist_id2name[key] = id2name[key]
+
+def create_chose_id2name(chose_name):
+    data = json.load(open('./dataset/FewRel/raw/pid2name.json'))
+    id2name = {}
+    for key in data:
+        id2name[key] = data[key][0]
+    add_rel('./dataset/FewRel/raw/train.json', id2name)
+    add_rel('./dataset/FewRel/raw/test.json', id2name)
+    add_rel('./dataset/FewRel/raw/val.json', id2name)
+    chose_id2name = {}
+    for k, v in all_exist_id2name.items():
+        if v in chose_name:
+            chose_id2name[k] = v
+    return chose_id2name
 
 def add_chose_data(data_json):
     data_all = json.load(open(data_json))
@@ -45,10 +64,15 @@ def add_chose_data(data_json):
 
 if __name__ == '__main__':
     tp = 0.8 # 训练集数量占比
+    chose_name = {'father', 'mother', 'has part', 'follows', 'creator', 'owned by'}
+    chose_id2name = create_chose_id2name(chose_name)
+    reverse_data_train_path = 'dataset/reverse_data_train.json'
+    reverse_data_val_path = 'dataset/reverse_data_val.json'
+    label_path = './tool_data/label.txt'
     add_chose_data('dataset/FewRel/raw/train.json')
     add_chose_data('dataset/FewRel/raw/val.json')
     add_chose_data('dataset/FewRel/raw/test.json')
-
+    per_class_num = 700 / 2
     index = torch.arange(per_class_num)
     train_index = index[:int(per_class_num*float(tp))]
     val_index = index[int(per_class_num*float(tp)):]

@@ -39,8 +39,6 @@ class PTransformerConfig(object):
         '''
         user can update the default hyperparamter
         '''
-
-
         for k, v in kwargs.items():
             if not hasattr(self, k):
                 raise Exception('opt has No key: {}'.format(k))

@@ -28,6 +28,8 @@ r-creator
 然后我们通过训练集：验证集=8:2的比例对数据集进行划分，并且保证了训练集和验证集每个类别的数量都占1/10
 
 最后得到的数据在`reverse_data_train.json`和`reverse_data_val.json`文件中
+
+也可以在`create_data.py`中的`chose_name`字典中添加其他的关系多生成一些数据
 # 数据预处理
 为了测试不同的模型，这里处理了多版数据
 
