@@ -7,4 +7,8 @@
 """
 from .PCNNConfig import PCNNConfig
 from .CNNConfig import CNNConfig
+from .BertEntityConfig import BertEntityConfig
 from .PCNNEntityConfig import PCNNEntityConfig
+from .PLSTMConfig import PLSTMConfig
+from .PTransformerConfig import PTransformerConfig
+from .PTransformerEntityConfig import PTransformerEntityConfig

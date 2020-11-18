@@ -1,27 +1,33 @@
 
-class BertConfig(object):
+class BertEntityConfig(object):
     """
     这里参数：格式
     model = 'model'
     """
-    model = 'Bert'
-    roberta_model_path = 'chinese-roberta-wwm-ext'
-    input_features:int = 768
+    model = 'BertEntity'
+    roberta_model_path = './bert-base-uncased'
+    optimizer = 'adam'
+    ckpt_dir = './checkpoints'
+    data_model = 'DataModel1'
+    data_dir = './dataset/pcnn_processed_data'
+
+    input_feature = 768
     tag_num = 21
-    clip_grad: int = 10
-    use_gpu: bool = True
-    gpu_id: int = 0
+    class_num = 12
+    clip_grad = 10
+    use_gpu = True
+    gpu_id = 0
     padding_idx = 0
     continue_training = False
     load_checkpoint = None
 
-    train_batch_size = 8
-    test_batch_size = 64
-    num_epochs = 15
+    train_batch_size = 32
+    val_batch_size = 64
+    num_epochs = 10
 
     lr = 3e-5
     seed = 123
-    data_dir = 'dataset/'
+
 
 
     def parse(self, kwargs):

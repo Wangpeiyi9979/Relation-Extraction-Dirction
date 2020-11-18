@@ -10,7 +10,7 @@ class CNNConfig(object):
     data_dir = './dataset/pcnn_processed_data'
     optimizer = 'adam'
     ckpt_dir = './checkpoints'
-    data_model = 'PCNNDataModel'
+    data_model = 'DataModel1'
     continue_training = False
     load_checkpoint = None
     seed = 9979

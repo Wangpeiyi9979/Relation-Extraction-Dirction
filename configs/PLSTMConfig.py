@@ -1,10 +1,10 @@
 #encoding:utf-8
-class PCNNEntityConfig(object):
+class PLSTMConfig(object):
     """
     这里参数：格式
     model = 'model'
     """
-    model = 'PCNNEntity'
+    model = 'PLSTM'
     vocab_txt_path = './tool_data/vocab.txt'
     word2vec_txt_path = './tool_data/glove.6B.50d.json'
     data_dir = './dataset/pcnn_processed_data'
@@ -19,15 +19,15 @@ class PCNNEntityConfig(object):
     gpu_id = 3
     dropout = 0.5
     pos_dim = 5
-    filter_num = 300
     class_num = 12
     clip_grad = 10
-    filters = [3]
+    lstm_dout=512
+    num_layers=2
     word_dim = 50
     sen_max_length = 128
     train_batch_size = 16
     val_batch_size = 64
-    lr = 1e-3
+    lr = 5e-3
     num_epochs = 50
 
     def parse(self, kwargs, print_info=True):
