@@ -23,7 +23,7 @@ r-mother
 creator
 r-creator
 ```
-数据集的构建方式为，对于原有的5个关系`has part, father, mother, owned by, creator`, FewRel原始数据集每种关系含700个实例，我们将其350个头尾互换作为`r`关系实例
+数据集的构建方式为，对于原有的6个关系`has part, father, mother, owned by, creator`, FewRel原始数据集每种关系含700个实例，我们将其350个头尾互换作为`r`关系实例
 
 然后我们通过训练集：验证集=8:2的比例对数据集进行划分，并且保证了训练集和验证集每个类别的数量都占1/10
 
@@ -57,7 +57,11 @@ python datamodels/PCNNDataModel.py
 - PCNN(加入pos1, pos2的embedding, max pooling): 69.524
 - PCNNEntity(在PCNN基础上，最后特征拼接了头实体表示平均和尾实体表示平均) 71.786    
 - PLSTM(把PCNN的encoder换成BiLSTM，最后也是max pooling) 71.198
-
-实验的一些小记录，CNN和LSTM参数都用`nn.init.xavier_normal`初始化对效果的影响很大，`bias`一般初始化为0，大体来说，BiLSTM是要好于CNN的。
-
+- PTransformer(PCNN的encoder换成Transformer，没有使用预训练的wordvec，position embedding是直接相加的) 48.33
+- PTransformerEntity(PTransformer基础上加上Entity表示) 53.095
+- BertEntity(Encoder换成Bert(没有输入pos1，pos2 embedding)，然后加上Entity表示) 81.667
+## 实验小结
+- CNN和LSTM参数都用`nn.init.xavier_normal`初始化对效果的提升很大，`bias`一般初始化为0，大体来说，BiLSTM是要好于CNN的。
+- Transformer似乎不适合该类任务，其在训练集上的loss也很难下降，或者是自己模型写错了？
+- 在`badcase`下观察所有的bad case以及混淆矩阵，发现就算是BertEntity, 对逆向关系处理的其实也不是很好
 
