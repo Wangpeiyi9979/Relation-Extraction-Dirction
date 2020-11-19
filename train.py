@@ -24,6 +24,7 @@ def setup_seed(seed):
 def run(**keward):
     opt = getattr(configs, keward.get('model', 'PCNN') + 'Config')()
     opt.parse(keward)
+    print(opt)
     if opt.use_gpu:
         torch.cuda.set_device(opt.gpu_id)
     # setup_seed(opt.seed)
