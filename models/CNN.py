@@ -9,8 +9,7 @@ import torch
 import torch.nn as nn
 from .Embedding.word2vec import Word2vec_Embedder
 from .BasicModule import BasicModule
-from .Encoder.basic_encoder import Encoder
-
+from .Encoder.CNNEncoder import CNNEncoder
 class CNN(BasicModule):
     def __init__(self, opt):
         super(CNN, self).__init__()
