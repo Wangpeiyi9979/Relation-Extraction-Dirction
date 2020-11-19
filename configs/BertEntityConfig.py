@@ -10,23 +10,8 @@ class BertEntityConfig(object):
     ckpt_dir = './checkpoints'
     data_model = 'DataModel1'
     data_dir = './dataset/pcnn_processed_data'
-
     input_feature = 768
-    tag_num = 21
-    class_num = 12
-    clip_grad = 10
-    use_gpu = True
-    gpu_id = 0
-    padding_idx = 0
-    continue_training = False
-    load_checkpoint = None
 
-    train_batch_size = 32
-    val_batch_size = 64
-    num_epochs = 10
-
-    lr = 3e-5
-    seed = 123
 
 
 
