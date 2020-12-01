@@ -2,6 +2,10 @@
 [UNK]
 [DR]
 [R]
+[B-H]
+[E-H]
+[B-T]
+[E-T]
 the
 ,
 .

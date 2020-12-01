@@ -63,10 +63,27 @@ python datamodels/DataModel1.py
 - PLSTM(把PCNN的encoder换成BiLSTM，最后也是max pooling) 71.198
 - PTransformer(PCNN的encoder换成Transformer，没有使用预训练的wordvec，position embedding是直接相加的) 48.33
 - PTransformerEntity(PTransformer基础上加上Entity表示) 53.095
-- BertEntity(Encoder换成Bert(没有输入pos1，pos2 embedding)，然后分类的表示为cls拼接Entity表示) 81.667
+- BertEntity(Encoder换成Bert(没有输入pos1，pos2 embedding)，然后分类的表示为cls拼接Entity表示) 83.929
+- BertEntity(Encoder换成Bert(没有输入pos1，pos2 embedding)，然后分类的表示Entity表示) 84.048 
 ## 实验小结
 - CNN和LSTM参数都用`nn.init.xavier_normal`初始化对效果的提升很大，`bias`一般初始化为0，大体来说，BiLSTM是要好于CNN的。
 - Transformer似乎不适合该类任务，其在训练集上的loss也很难下降，或者是自己模型写错了？
 - Bert显著高于CNN、LSTM、Transformer
 - 在`badcase`下观察所有的bad case以及混淆矩阵，发现就算是BertEntity, 对逆向关系处理的其实也不是很好
 
+## Data2.0
+这一版数据使用[B-H], [E-H], [B-T], [E-T]包裹头尾实体
+
+```
+'str:token': [],  # 句子token列表
+'num:bert_token_id': [] #bert token id
+'num:bert_length':[] # bert token_id的长度
+'num:pos1': [],   # token与pos1的相对位置
+'num:pos2': [],   # token与pos2的相对位置
+'str:label': str,  # 句子label
+'num:label_id': int, # 句子label对应的id
+'num:length': int,   # 句子长度
+'num:bh':int,         # [B-H]token的位置
+'num:bt':int          # [B-T]token的位置
+```
+-- BertEntity(Encoder换成Bert，然后分类的表示为bh凭借bt表示) 89.405

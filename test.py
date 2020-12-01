@@ -17,7 +17,8 @@ from transformers import AutoTokenizer
 from tqdm import tqdm
 from texttable import Texttable
 from sklearn.metrics import confusion_matrix
-
+from datamodels.DataModel1 import collate_fn as data1_collate_fn
+from datamodels.DataModel2 import collate_fn as data2_collate_fn
 import datamodels
 import models
 import utils
@@ -32,12 +33,21 @@ def cut_name(data_list, max_length=5):
         res.append(i)
     return res
 id2label = utils.create_label_dict('./tool_data/label.txt', reverse=True)
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', default='PCNN')
+    parser.add_argument('--path', default='checkpoints/Bert_Lstm_Crf_best.pt')
     args = parser.parse_args()
-    args.path = 'checkpoints/{}_best.pt'.format(args.model)
+
     checkpoint = torch.load(args.path, map_location='cpu')
+    opt = checkpoint['opt']
+    DataModel = getattr(datamodels, opt.data_model)
+    if opt.data_model == 'DataModel2':
+        opt.data_dir = './dataset/data2_processed_data'
+        collate_fn = data2_collate_fn
+    else:
+        collate_fn = data1_collate_fn
+
     try:
         opt = checkpoint['opt']
     except KeyError:
@@ -56,7 +66,7 @@ if __name__ == '__main__':
     model.eval()
     golden_label = []
     pred_label = []
-    output_file = open('./badcase/{}_badcase.txt'.format(args.model), 'w')
+    output_file = open('./badcase/{}_badcase.txt'.format(opt.model), 'w')
     with torch.no_grad():
         for idy, data in enumerate(val_data_loader):
             for key in data.keys():
@@ -70,7 +80,8 @@ if __name__ == '__main__':
                 pred = id2label[pred.item()]
                 if label != pred:
                     output_file.write(" ".join(data['str:token'][idx]) + '\n')
-                    output_file.write('[h]: {}; [t]: {}\n'.format(data['str:h'][idx], data['str:t'][idx]))
+                    if 'str:h' in data:
+                        output_file.write('[h]: {}; [t]: {}\n'.format(data['str:h'][idx], data['str:t'][idx]))
                     output_file.write("[Pred]: {}\n".format(pred))
                     output_file.write("[Gold]: {}\n\n".format(label))
             sys.stdout.flush()

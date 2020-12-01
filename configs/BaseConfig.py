@@ -6,11 +6,10 @@
 @File : BaseConfig.py
 """
 class BaseConfig1(object):
-    roberta_model_path = './bert-base-uncased'
     optimizer = 'adam'
     ckpt_dir = './checkpoints'
     data_model = 'DataModel1'
-    data_dir = './dataset/pcnn_processed_data'
+    data_dir = './dataset/data1_processed_data'
     vocab_txt_path = './tool_data/vocab.txt'
     word2vec_txt_path = './tool_data/glove.6B.50d.json'
     class_num = 12

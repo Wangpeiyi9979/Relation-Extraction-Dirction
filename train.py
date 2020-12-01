@@ -10,7 +10,8 @@ from tqdm import trange
 from torch.optim.lr_scheduler import LambdaLR
 from torch.utils.data import DataLoader
 import torch.nn as nn
-from datamodels.DataModel1 import collate_fn
+from datamodels.DataModel1 import collate_fn as data1_collate_fn
+from datamodels.DataModel2 import collate_fn as data2_collate_fn
 import datamodels
 import models
 import utils
@@ -22,14 +23,19 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 def run(**keward):
-    opt = getattr(configs, keward.get('model', 'PCNN') + 'Config')()
+    opt = getattr(configs, keward.get('model', 'BertEntity') + 'Config')()
     opt.parse(keward)
-    print(opt)
     if opt.use_gpu:
         torch.cuda.set_device(opt.gpu_id)
     # setup_seed(opt.seed)
-
     DataModel = getattr(datamodels, opt.data_model)
+    if opt.data_model == 'DataModel2':
+        opt.data_dir = './dataset/data2_processed_data'
+        collate_fn = data2_collate_fn
+    else:
+        collate_fn = data1_collate_fn
+    print(opt)
+
     train_data = DataModel(opt, case='train')
     train_data_loader = DataLoader(train_data, opt.train_batch_size, shuffle=True, num_workers=0, collate_fn=collate_fn)
     val_data = DataModel(opt, case='val')
